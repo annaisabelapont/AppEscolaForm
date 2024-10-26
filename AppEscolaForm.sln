@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppEscolaForm", "AppEscolaForm\AppEscolaForm.csproj", "{A8EE06E6-80A2-45CC-B2C1-EA3873CDAE8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8EE06E6-80A2-45CC-B2C1-EA3873CDAE8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8EE06E6-80A2-45CC-B2C1-EA3873CDAE8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8EE06E6-80A2-45CC-B2C1-EA3873CDAE8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8EE06E6-80A2-45CC-B2C1-EA3873CDAE8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4740F46-D921-46D1-A06E-E430E4580C52}
+	EndGlobalSection
+EndGlobal
