@@ -109,6 +109,7 @@
             this.txtMedia.Name = "txtMedia";
             this.txtMedia.Size = new System.Drawing.Size(285, 30);
             this.txtMedia.TabIndex = 58;
+
             // 
             // txtNota2
             // 
@@ -118,6 +119,7 @@
             this.txtNota2.Name = "txtNota2";
             this.txtNota2.Size = new System.Drawing.Size(283, 30);
             this.txtNota2.TabIndex = 57;
+
             // 
             // label1
             // 
@@ -128,8 +130,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 20);
             this.label1.TabIndex = 56;
-            this.label1.Text = "NOTA 1:";
-            // 
+            this.label1.Text = "NOTA 1:";            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -140,6 +141,7 @@
             this.label4.Size = new System.Drawing.Size(69, 20);
             this.label4.TabIndex = 55;
             this.label4.Text = "NOME:";
+
             // 
             // txtNota1
             // 
@@ -149,6 +151,7 @@
             this.txtNota1.Name = "txtNota1";
             this.txtNota1.Size = new System.Drawing.Size(284, 30);
             this.txtNota1.TabIndex = 54;
+
             // 
             // txtNomeAluno
             // 
@@ -158,6 +161,7 @@
             this.txtNomeAluno.Name = "txtNomeAluno";
             this.txtNomeAluno.Size = new System.Drawing.Size(284, 30);
             this.txtNomeAluno.TabIndex = 53;
+
             // 
             // panel1
             // 
@@ -167,6 +171,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(665, 12);
             this.panel1.TabIndex = 71;
+
             // 
             // btAdd
             // 
