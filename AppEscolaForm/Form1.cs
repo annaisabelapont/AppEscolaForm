@@ -21,7 +21,7 @@ namespace AppEscolaForm
 
         private void btCadastrarSalaDeAula_Click(object sender, EventArgs e)
         {
-           new CadastrarSalaDeAula().ShowDialog();
+            new CadastrarSalaDeAula().ShowDialog();
         }
 
         private void btMatricularAluno_Click(object sender, EventArgs e)

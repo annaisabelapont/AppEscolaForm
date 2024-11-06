@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AppEscolaForm.Contexto;
+using AppEscolaForm.Models;
 
 namespace AppEscolaForm.Formularios
 {
@@ -17,5 +19,19 @@ namespace AppEscolaForm.Formularios
             InitializeComponent();
         }
 
+        private void btSalvar_Click(object sender, EventArgs e)
+        {
+            var salaDeAula = new SalaDeAula();
+            salaDeAula.Serie = Convert.ToInt32(txtSerie.Text);
+            salaDeAula.NomeTurma = txtNomeTurma.Text;
+            
+            Context.ListaSalas.Add(salaDeAula);
+        }
+
+        private void btCancelar_Click(object sender, EventArgs e)
+        {
+            txtSerie.Clear();
+            txtNomeTurma.Clear();
+        }
     }
 }
