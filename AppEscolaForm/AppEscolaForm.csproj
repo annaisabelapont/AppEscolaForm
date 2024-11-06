@@ -65,6 +65,30 @@
     <Compile Include="Formularios\ConsultarAlunos.Designer.cs">
       <DependentUpon>ConsultarAlunos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\ConsultarTurmas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ConsultarTurmas.Designer.cs">
+      <DependentUpon>ConsultarTurmas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ExibirAlunosAprovados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ExibirAlunosAprovados.Designer.cs">
+      <DependentUpon>ExibirAlunosAprovados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ExibirAlunosReprovados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ExibirAlunosReprovados.Designer.cs">
+      <DependentUpon>ExibirAlunosReprovados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ExibirPercentual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ExibirPercentual.Designer.cs">
+      <DependentUpon>ExibirPercentual.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\MatricularAluno.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +104,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\CadastrarSalaDeAula.resx">
       <DependentUpon>CadastrarSalaDeAula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ConsultarAlunos.resx">
+      <DependentUpon>ConsultarAlunos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ConsultarTurmas.resx">
+      <DependentUpon>ConsultarTurmas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ExibirAlunosAprovados.resx">
+      <DependentUpon>ExibirAlunosAprovados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ExibirAlunosReprovados.resx">
+      <DependentUpon>ExibirAlunosReprovados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ExibirPercentual.resx">
+      <DependentUpon>ExibirPercentual.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\MatricularAluno.resx">
       <DependentUpon>MatricularAluno.cs</DependentUpon>

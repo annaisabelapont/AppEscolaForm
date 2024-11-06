@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace AppEscolaForm.Formularios
 {
-    public partial class ConsultarAlunos : Form
+    public partial class ExibirAlunosAprovados : Form
     {
-        public ConsultarAlunos()
+        public ExibirAlunosAprovados()
         {
             InitializeComponent();
-        }
-
-        private void dtTabela_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }
