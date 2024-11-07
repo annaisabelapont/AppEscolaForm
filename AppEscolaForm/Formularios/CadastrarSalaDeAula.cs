@@ -14,6 +14,8 @@ namespace AppEscolaForm.Formularios
 {
     public partial class CadastrarSalaDeAula : Form
     {
+        static private int IdSalaDeAula = 1;
+
         public CadastrarSalaDeAula()
         {
             InitializeComponent();
@@ -22,6 +24,7 @@ namespace AppEscolaForm.Formularios
         private void btSalvar_Click(object sender, EventArgs e)
         {
             var salaDeAula = new SalaDeAula();
+            salaDeAula.Id = IdSalaDeAula;
             salaDeAula.Serie = Convert.ToInt32(txtSerie.Text);
             salaDeAula.NomeTurma = txtNomeTurma.Text;
 
