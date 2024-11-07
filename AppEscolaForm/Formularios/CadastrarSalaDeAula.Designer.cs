@@ -40,7 +40,7 @@
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(74, 18);
+            this.label5.Location = new System.Drawing.Point(90, 41);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(621, 30);
@@ -52,29 +52,29 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(118, 145);
+            this.label2.Location = new System.Drawing.Point(60, 184);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(171, 20);
+            this.label2.Size = new System.Drawing.Size(165, 20);
             this.label2.TabIndex = 37;
-            this.label2.Text = "NOME DA TURMA:";
+            this.label2.Text = "NOME DA TURMA";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(118, 69);
+            this.label1.Location = new System.Drawing.Point(60, 108);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 20);
+            this.label1.Size = new System.Drawing.Size(181, 20);
             this.label1.TabIndex = 36;
-            this.label1.Text = "SÉRIE:";
+            this.label1.Text = "NÚMERO DA SÉRIE";
             // 
             // btSalvar
             // 
             this.btSalvar.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.btSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSalvar.Location = new System.Drawing.Point(438, 161);
+            this.btSalvar.Location = new System.Drawing.Point(476, 125);
             this.btSalvar.Margin = new System.Windows.Forms.Padding(4);
             this.btSalvar.Name = "btSalvar";
             this.btSalvar.Size = new System.Drawing.Size(257, 48);
@@ -86,16 +86,16 @@
             // txtNomeTurma
             // 
             this.txtNomeTurma.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNomeTurma.Location = new System.Drawing.Point(122, 168);
+            this.txtNomeTurma.Location = new System.Drawing.Point(68, 207);
             this.txtNomeTurma.Margin = new System.Windows.Forms.Padding(4);
             this.txtNomeTurma.Name = "txtNomeTurma";
-            this.txtNomeTurma.Size = new System.Drawing.Size(248, 30);
+            this.txtNomeTurma.Size = new System.Drawing.Size(363, 30);
             this.txtNomeTurma.TabIndex = 34;
             // 
             // txtSerie
             // 
             this.txtSerie.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSerie.Location = new System.Drawing.Point(122, 92);
+            this.txtSerie.Location = new System.Drawing.Point(68, 132);
             this.txtSerie.Margin = new System.Windows.Forms.Padding(4);
             this.txtSerie.Name = "txtSerie";
             this.txtSerie.Size = new System.Drawing.Size(363, 30);
@@ -105,7 +105,7 @@
             // 
             this.btCancelar.BackColor = System.Drawing.Color.Orange;
             this.btCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btCancelar.Location = new System.Drawing.Point(438, 217);
+            this.btCancelar.Location = new System.Drawing.Point(476, 201);
             this.btCancelar.Margin = new System.Windows.Forms.Padding(4);
             this.btCancelar.Name = "btCancelar";
             this.btCancelar.Size = new System.Drawing.Size(257, 46);
@@ -118,7 +118,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 295);
+            this.ClientSize = new System.Drawing.Size(800, 315);
             this.Controls.Add(this.btCancelar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);

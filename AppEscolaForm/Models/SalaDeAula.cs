@@ -11,6 +11,6 @@ namespace AppEscolaForm.Models
         public int Id { get; set; }
         public int Serie { get; set; }
         public string NomeTurma { get; set; }
-        public int Ano { get; set; }
+        public string SerieENome => $"{Serie}° {NomeTurma}";
     }
 }

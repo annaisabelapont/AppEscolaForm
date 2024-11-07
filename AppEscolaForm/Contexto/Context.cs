@@ -9,7 +9,7 @@ namespace AppEscolaForm.Contexto
 {
     public static class Context
     {
-        public static List<SalaDeAula> ListaSalas = new List<SalaDeAula>();
+        public static List<SalaDeAula> ListaSalasDeAula = new List<SalaDeAula>();
         public static List<Aluno> ListaAlunos = new List<Aluno>();
     }
 }

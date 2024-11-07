@@ -24,11 +24,19 @@ namespace AppEscolaForm.Formularios
             var salaDeAula = new SalaDeAula();
             salaDeAula.Serie = Convert.ToInt32(txtSerie.Text);
             salaDeAula.NomeTurma = txtNomeTurma.Text;
-            
-            Context.ListaSalas.Add(salaDeAula);
+
+            Context.ListaSalasDeAula.Add(salaDeAula);
+
+            MessageBox.Show("SALVO COM SUCESSO", "2º A INF", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            LimparTudo();
         }
 
         private void btCancelar_Click(object sender, EventArgs e)
+        {
+            LimparTudo();
+        }
+        void LimparTudo()
         {
             txtSerie.Clear();
             txtNomeTurma.Clear();
