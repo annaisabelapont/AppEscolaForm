@@ -38,14 +38,15 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtNota2 = new System.Windows.Forms.TextBox();
-            this.txtNome = new System.Windows.Forms.TextBox();
+            this.txtNomeAlunoEncontrado = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtMedia = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtSituacao = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtTurma = new System.Windows.Forms.TextBox();
+            this.btPesquisar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label8
@@ -76,7 +77,7 @@
             this.txtNomeAluno.Location = new System.Drawing.Point(83, 102);
             this.txtNomeAluno.Margin = new System.Windows.Forms.Padding(4);
             this.txtNomeAluno.Name = "txtNomeAluno";
-            this.txtNomeAluno.Size = new System.Drawing.Size(635, 30);
+            this.txtNomeAluno.Size = new System.Drawing.Size(438, 30);
             this.txtNomeAluno.TabIndex = 77;
             // 
             // label2
@@ -150,14 +151,14 @@
             this.txtNota2.Size = new System.Drawing.Size(134, 30);
             this.txtNota2.TabIndex = 80;
             // 
-            // txtNome
+            // txtNomeAlunoEncontrado
             // 
-            this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNome.Location = new System.Drawing.Point(83, 239);
-            this.txtNome.Margin = new System.Windows.Forms.Padding(4);
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(284, 30);
-            this.txtNome.TabIndex = 79;
+            this.txtNomeAlunoEncontrado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNomeAlunoEncontrado.Location = new System.Drawing.Point(83, 239);
+            this.txtNomeAlunoEncontrado.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNomeAlunoEncontrado.Name = "txtNomeAlunoEncontrado";
+            this.txtNomeAlunoEncontrado.Size = new System.Drawing.Size(284, 30);
+            this.txtNomeAlunoEncontrado.TabIndex = 79;
             // 
             // panel1
             // 
@@ -179,14 +180,14 @@
             this.label5.TabIndex = 89;
             this.label5.Text = "MÉDIA";
             // 
-            // textBox1
+            // txtMedia
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(435, 376);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(283, 30);
-            this.textBox1.TabIndex = 88;
+            this.txtMedia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMedia.Location = new System.Drawing.Point(435, 376);
+            this.txtMedia.Margin = new System.Windows.Forms.Padding(4);
+            this.txtMedia.Name = "txtMedia";
+            this.txtMedia.Size = new System.Drawing.Size(283, 30);
+            this.txtMedia.TabIndex = 88;
             // 
             // label7
             // 
@@ -199,14 +200,14 @@
             this.label7.TabIndex = 91;
             this.label7.Text = "SITUAÇÃO";
             // 
-            // textBox2
+            // txtSituacao
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(84, 376);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(283, 30);
-            this.textBox2.TabIndex = 90;
+            this.txtSituacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSituacao.Location = new System.Drawing.Point(84, 376);
+            this.txtSituacao.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSituacao.Name = "txtSituacao";
+            this.txtSituacao.Size = new System.Drawing.Size(283, 30);
+            this.txtSituacao.TabIndex = 90;
             // 
             // label9
             // 
@@ -220,26 +221,39 @@
             this.label9.TabIndex = 93;
             this.label9.Text = "TURMA";
             // 
-            // textBox3
+            // txtTurma
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(83, 305);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(283, 30);
-            this.textBox3.TabIndex = 92;
+            this.txtTurma.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTurma.Location = new System.Drawing.Point(83, 305);
+            this.txtTurma.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTurma.Name = "txtTurma";
+            this.txtTurma.Size = new System.Drawing.Size(283, 30);
+            this.txtTurma.TabIndex = 92;
             // 
-            // ConsultarAlunos
+            // btPesquisar
+            // 
+            this.btPesquisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btPesquisar.Location = new System.Drawing.Point(536, 102);
+            this.btPesquisar.Margin = new System.Windows.Forms.Padding(4);
+            this.btPesquisar.Name = "btPesquisar";
+            this.btPesquisar.Size = new System.Drawing.Size(183, 30);
+            this.btPesquisar.TabIndex = 94;
+            this.btPesquisar.Text = "PESQUISAR";
+            this.btPesquisar.UseVisualStyleBackColor = true;
+            this.btPesquisar.Click += new System.EventHandler(this.btPesquisar_Click);
+            // 
+            // ConsultarAluno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 458);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btPesquisar);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtTurma);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtSituacao);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtMedia);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtMatricula);
@@ -248,11 +262,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtNota2);
-            this.Controls.Add(this.txtNome);
+            this.Controls.Add(this.txtNomeAlunoEncontrado);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNomeAluno);
             this.Controls.Add(this.label8);
-            this.Name = "ConsultarAlunos";
+            this.Name = "ConsultarAluno";
             this.Text = "z";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -270,13 +284,14 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtNota2;
-        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.TextBox txtNomeAlunoEncontrado;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtMedia;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtSituacao;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtTurma;
+        private System.Windows.Forms.Button btPesquisar;
     }
 }
