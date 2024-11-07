@@ -59,17 +59,17 @@
     <Compile Include="Formularios\CadastrarSalaDeAula.Designer.cs">
       <DependentUpon>CadastrarSalaDeAula.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\ConsultarAlunos.cs">
+    <Compile Include="Formularios\ConsultarAluno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\ConsultarAlunos.Designer.cs">
-      <DependentUpon>ConsultarAlunos.cs</DependentUpon>
+    <Compile Include="Formularios\ConsultarAluno.Designer.cs">
+      <DependentUpon>ConsultarAluno.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\ConsultarTurmas.cs">
+    <Compile Include="Formularios\ConsultarTurma.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\ConsultarTurmas.Designer.cs">
-      <DependentUpon>ConsultarTurmas.cs</DependentUpon>
+    <Compile Include="Formularios\ConsultarTurma.Designer.cs">
+      <DependentUpon>ConsultarTurma.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\ExibirAlunosAprovados.cs">
       <SubType>Form</SubType>
@@ -105,11 +105,11 @@
     <EmbeddedResource Include="Formularios\CadastrarSalaDeAula.resx">
       <DependentUpon>CadastrarSalaDeAula.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\ConsultarAlunos.resx">
-      <DependentUpon>ConsultarAlunos.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\ConsultarAluno.resx">
+      <DependentUpon>ConsultarAluno.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\ConsultarTurmas.resx">
-      <DependentUpon>ConsultarTurmas.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\ConsultarTurma.resx">
+      <DependentUpon>ConsultarTurma.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ExibirAlunosAprovados.resx">
       <DependentUpon>ExibirAlunosAprovados.cs</DependentUpon>

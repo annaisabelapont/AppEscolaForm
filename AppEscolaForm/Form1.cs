@@ -31,12 +31,12 @@ namespace AppEscolaForm
 
         private void btConsultarAluno_Click(object sender, EventArgs e)
         {
-            new ConsultarAlunos().ShowDialog();
+            new ConsultarAluno().ShowDialog();
         }
 
         private void btConsultarTurma_Click(object sender, EventArgs e)
         {
-            new ConsultarTurmas().ShowDialog();
+            new ConsultarTurma().ShowDialog();
         }
 
         private void btConsultarAprovadosTurma_Click(object sender, EventArgs e)

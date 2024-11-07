@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AppEscolaForm.Formularios
 {
-    public partial class ConsultarAlunos : Form
+    public partial class ConsultarAluno : Form
     {
-        public ConsultarAlunos()
+        public ConsultarAluno()
         {
             InitializeComponent();
         }
