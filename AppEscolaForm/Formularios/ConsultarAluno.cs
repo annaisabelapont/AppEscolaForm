@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AppEscolaForm.Models;
+using AppEscolaForm.Contexto;
 
 namespace AppEscolaForm.Formularios
 {
@@ -17,9 +19,33 @@ namespace AppEscolaForm.Formularios
             InitializeComponent();
         }
 
-        private void dtTabela_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void btPesquisar_Click(object sender, EventArgs e)
         {
+            string nome = txtNomeAluno.Text;
 
+            Aluno alunoEncontrado = Context.ListaAlunos
+                .Where(aluno => aluno.Nome == nome)
+                .First();
+
+            if (alunoEncontrado != null)
+            {
+                SalaDeAula turmaDoAluno = Context.ListaSalasDeAula
+                    .Where(sala => sala.Id == alunoEncontrado.IdSalaDeAula)
+                    .First();
+
+                txtNomeAlunoEncontrado.Text = alunoEncontrado.Nome;
+                txtMatricula.Text = alunoEncontrado.NumMatricula.ToString();
+                txtNota1.Text = alunoEncontrado.Nota1.ToString();
+                txtNota2.Text = alunoEncontrado.Nota2.ToString();
+                txtMedia.Text = alunoEncontrado.CalcularMedia().ToString();
+                txtSituacao.Text = alunoEncontrado.VerificarSituacao();
+
+                txtTurma.Text = turmaDoAluno.SerieENome;
+            }
+            else
+            {
+                MessageBox.Show("ALUNO NÃO ENCONTRADO", "2º A INF", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
     }
 }
