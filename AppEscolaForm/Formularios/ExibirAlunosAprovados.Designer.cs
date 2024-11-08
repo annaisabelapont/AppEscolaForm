@@ -35,15 +35,15 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtSerie = new System.Windows.Forms.TextBox();
             this.txtNomeTurma = new System.Windows.Forms.TextBox();
+            this.txtSerie = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtTabela)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel1.Location = new System.Drawing.Point(73, 200);
+            this.panel1.Location = new System.Drawing.Point(68, 207);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(665, 12);
@@ -52,7 +52,7 @@
             // dtTabela
             // 
             this.dtTabela.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtTabela.Location = new System.Drawing.Point(73, 240);
+            this.dtTabela.Location = new System.Drawing.Point(66, 247);
             this.dtTabela.Margin = new System.Windows.Forms.Padding(4);
             this.dtTabela.Name = "dtTabela";
             this.dtTabela.RowHeadersWidth = 51;
@@ -62,7 +62,7 @@
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(132, 45);
+            this.label7.Location = new System.Drawing.Point(135, 52);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(531, 20);
@@ -74,7 +74,7 @@
             // 
             this.cbTurma.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbTurma.FormattingEnabled = true;
-            this.cbTurma.Location = new System.Drawing.Point(132, 68);
+            this.cbTurma.Location = new System.Drawing.Point(136, 75);
             this.cbTurma.Margin = new System.Windows.Forms.Padding(4);
             this.cbTurma.Name = "cbTurma";
             this.cbTurma.Size = new System.Drawing.Size(529, 33);
@@ -84,7 +84,7 @@
             // label8
             // 
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(31, 9);
+            this.label8.Location = new System.Drawing.Point(38, 9);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(724, 30);
@@ -96,41 +96,41 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(416, 123);
+            this.label1.Location = new System.Drawing.Point(417, 130);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 20);
+            this.label1.Size = new System.Drawing.Size(165, 20);
             this.label1.TabIndex = 76;
-            this.label1.Text = "SÉRIE";
+            this.label1.Text = "NOME DA TURMA";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(84, 123);
+            this.label4.Location = new System.Drawing.Point(95, 130);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 20);
+            this.label4.Size = new System.Drawing.Size(181, 20);
             this.label4.TabIndex = 75;
-            this.label4.Text = "NOME:";
-            // 
-            // txtSerie
-            // 
-            this.txtSerie.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSerie.Location = new System.Drawing.Point(420, 147);
-            this.txtSerie.Margin = new System.Windows.Forms.Padding(4);
-            this.txtSerie.Name = "txtSerie";
-            this.txtSerie.Size = new System.Drawing.Size(284, 30);
-            this.txtSerie.TabIndex = 74;
+            this.label4.Text = "NÚMERO DA SÉRIE";
             // 
             // txtNomeTurma
             // 
             this.txtNomeTurma.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNomeTurma.Location = new System.Drawing.Point(88, 147);
+            this.txtNomeTurma.Location = new System.Drawing.Point(421, 154);
             this.txtNomeTurma.Margin = new System.Windows.Forms.Padding(4);
             this.txtNomeTurma.Name = "txtNomeTurma";
             this.txtNomeTurma.Size = new System.Drawing.Size(284, 30);
-            this.txtNomeTurma.TabIndex = 73;
+            this.txtNomeTurma.TabIndex = 74;
+            // 
+            // txtSerie
+            // 
+            this.txtSerie.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSerie.Location = new System.Drawing.Point(99, 154);
+            this.txtSerie.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSerie.Name = "txtSerie";
+            this.txtSerie.Size = new System.Drawing.Size(284, 30);
+            this.txtSerie.TabIndex = 73;
             // 
             // ExibirAlunosAprovados
             // 
@@ -145,8 +145,8 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.txtSerie);
             this.Controls.Add(this.txtNomeTurma);
+            this.Controls.Add(this.txtSerie);
             this.Name = "ExibirAlunosAprovados";
             this.Text = "ExibirAlunosAprovados";
             ((System.ComponentModel.ISupportInitialize)(this.dtTabela)).EndInit();
@@ -164,7 +164,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtSerie;
         private System.Windows.Forms.TextBox txtNomeTurma;
+        private System.Windows.Forms.TextBox txtSerie;
     }
 }

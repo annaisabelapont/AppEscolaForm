@@ -30,9 +30,9 @@ namespace AppEscolaForm.Formularios
             {
                 SalaDeAula salaDeAulaSelecionada = Context.ListaSalasDeAula[indiceSelecionado];
                 txtSerie.Text = salaDeAulaSelecionada.Serie.ToString();
-                txtNomeTurma.Text = salaDeAulaSelecionada.SerieENome;
+                txtNomeTurma.Text = salaDeAulaSelecionada.NomeTurma;
                 dtTabela.DataSource = Context.ListaAlunos
-                    .Where(aluno => aluno.IdSalaDeAula == salaDeAulaSelecionada.Id && aluno.VerificarSituacao().Contains("REPROVADO"))
+                    .Where(aluno => aluno.IdSalaDeAula == salaDeAulaSelecionada.Id && aluno.VerificarSituacao() == "REPROVADO(A)")
                     .ToList();
             }
             else
@@ -43,8 +43,8 @@ namespace AppEscolaForm.Formularios
 
         private void LimparCaixasTexto()
         {
-            txtSerie.Clear();
             txtNomeTurma.Clear();
+            txtSerie.Clear();
             dtTabela.DataSource = new List<Aluno>();
         }
     }
