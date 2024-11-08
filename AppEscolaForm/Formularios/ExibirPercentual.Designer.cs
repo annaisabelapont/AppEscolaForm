@@ -55,6 +55,7 @@
             this.cbTurma.Name = "cbTurma";
             this.cbTurma.Size = new System.Drawing.Size(529, 33);
             this.cbTurma.TabIndex = 101;
+            this.cbTurma.SelectedIndexChanged += new System.EventHandler(this.cbTurma_SelectedIndexChanged);
             // 
             // label8
             // 

@@ -36,7 +36,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtSerie = new System.Windows.Forms.TextBox();
-            this.txtNomeAluno = new System.Windows.Forms.TextBox();
+            this.txtNomeTurma = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtTabela)).BeginInit();
             this.SuspendLayout();
             // 
@@ -79,6 +79,7 @@
             this.cbTurma.Name = "cbTurma";
             this.cbTurma.Size = new System.Drawing.Size(529, 33);
             this.cbTurma.TabIndex = 94;
+            this.cbTurma.SelectedIndexChanged += new System.EventHandler(this.cbTurma_SelectedIndexChanged);
             // 
             // label8
             // 
@@ -122,14 +123,14 @@
             this.txtSerie.Size = new System.Drawing.Size(284, 30);
             this.txtSerie.TabIndex = 90;
             // 
-            // txtNomeAluno
+            // txtNomeTurma
             // 
-            this.txtNomeAluno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNomeAluno.Location = new System.Drawing.Point(95, 145);
-            this.txtNomeAluno.Margin = new System.Windows.Forms.Padding(4);
-            this.txtNomeAluno.Name = "txtNomeAluno";
-            this.txtNomeAluno.Size = new System.Drawing.Size(284, 30);
-            this.txtNomeAluno.TabIndex = 89;
+            this.txtNomeTurma.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNomeTurma.Location = new System.Drawing.Point(95, 145);
+            this.txtNomeTurma.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNomeTurma.Name = "txtNomeTurma";
+            this.txtNomeTurma.Size = new System.Drawing.Size(284, 30);
+            this.txtNomeTurma.TabIndex = 89;
             // 
             // ExibirAlunosReprovados
             // 
@@ -144,7 +145,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtSerie);
-            this.Controls.Add(this.txtNomeAluno);
+            this.Controls.Add(this.txtNomeTurma);
             this.Name = "ExibirAlunosReprovados";
             this.Text = "ExibirAlunosReprovados";
             ((System.ComponentModel.ISupportInitialize)(this.dtTabela)).EndInit();
@@ -163,6 +164,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtSerie;
-        private System.Windows.Forms.TextBox txtNomeAluno;
+        private System.Windows.Forms.TextBox txtNomeTurma;
     }
 }
