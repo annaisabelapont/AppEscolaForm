@@ -72,7 +72,7 @@
             // 
             // btSalvar
             // 
-            this.btSalvar.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btSalvar.BackColor = System.Drawing.Color.White;
             this.btSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btSalvar.Location = new System.Drawing.Point(476, 125);
             this.btSalvar.Margin = new System.Windows.Forms.Padding(4);
@@ -103,7 +103,7 @@
             // 
             // btCancelar
             // 
-            this.btCancelar.BackColor = System.Drawing.Color.Orange;
+            this.btCancelar.BackColor = System.Drawing.Color.LightGray;
             this.btCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btCancelar.Location = new System.Drawing.Point(476, 201);
             this.btCancelar.Margin = new System.Windows.Forms.Padding(4);
@@ -118,6 +118,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(800, 315);
             this.Controls.Add(this.btCancelar);
             this.Controls.Add(this.label5);
