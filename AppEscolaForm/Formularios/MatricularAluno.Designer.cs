@@ -67,7 +67,7 @@
             this.cbTurma.Margin = new System.Windows.Forms.Padding(4);
             this.cbTurma.Name = "cbTurma";
             this.cbTurma.Size = new System.Drawing.Size(529, 33);
-            this.cbTurma.TabIndex = 62;
+            this.cbTurma.TabIndex = 0;
             this.cbTurma.SelectedIndexChanged += new System.EventHandler(this.cbTurma_SelectedIndexChanged);
             // 
             // label8
@@ -99,7 +99,7 @@
             this.txtNota1.Margin = new System.Windows.Forms.Padding(4);
             this.txtNota1.Name = "txtNota1";
             this.txtNota1.Size = new System.Drawing.Size(283, 30);
-            this.txtNota1.TabIndex = 57;
+            this.txtNota1.TabIndex = 3;
             // 
             // label1
             // 
@@ -130,7 +130,7 @@
             this.txtNota2.Margin = new System.Windows.Forms.Padding(4);
             this.txtNota2.Name = "txtNota2";
             this.txtNota2.Size = new System.Drawing.Size(284, 30);
-            this.txtNota2.TabIndex = 54;
+            this.txtNota2.TabIndex = 4;
             // 
             // txtNome
             // 
@@ -139,7 +139,7 @@
             this.txtNome.Margin = new System.Windows.Forms.Padding(4);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(284, 30);
-            this.txtNome.TabIndex = 53;
+            this.txtNome.TabIndex = 1;
             // 
             // panel1
             // 
@@ -159,7 +159,7 @@
             this.btAdd.Margin = new System.Windows.Forms.Padding(4);
             this.btAdd.Name = "btAdd";
             this.btAdd.Size = new System.Drawing.Size(183, 36);
-            this.btAdd.TabIndex = 70;
+            this.btAdd.TabIndex = 5;
             this.btAdd.Text = "ADD(+)";
             this.btAdd.UseVisualStyleBackColor = false;
             this.btAdd.Click += new System.EventHandler(this.btAdd_Click);
@@ -173,7 +173,7 @@
             this.btCancelar.Margin = new System.Windows.Forms.Padding(4);
             this.btCancelar.Name = "btCancelar";
             this.btCancelar.Size = new System.Drawing.Size(183, 36);
-            this.btCancelar.TabIndex = 69;
+            this.btCancelar.TabIndex = 6;
             this.btCancelar.Text = "CANCELAR";
             this.btCancelar.UseVisualStyleBackColor = false;
             this.btCancelar.Click += new System.EventHandler(this.btCancelar_Click);
@@ -187,7 +187,7 @@
             this.btSalvar.Margin = new System.Windows.Forms.Padding(4);
             this.btSalvar.Name = "btSalvar";
             this.btSalvar.Size = new System.Drawing.Size(183, 36);
-            this.btSalvar.TabIndex = 68;
+            this.btSalvar.TabIndex = 8;
             this.btSalvar.Text = "SALVAR";
             this.btSalvar.UseVisualStyleBackColor = false;
             this.btSalvar.Click += new System.EventHandler(this.btSalvar_Click);
@@ -201,7 +201,7 @@
             this.dtTabela.Name = "dtTabela";
             this.dtTabela.RowHeadersWidth = 51;
             this.dtTabela.Size = new System.Drawing.Size(669, 253);
-            this.dtTabela.TabIndex = 72;
+            this.dtTabela.TabIndex = 8;
             // 
             // label2
             // 
@@ -221,7 +221,7 @@
             this.txtMatricula.Margin = new System.Windows.Forms.Padding(4);
             this.txtMatricula.Name = "txtMatricula";
             this.txtMatricula.Size = new System.Drawing.Size(284, 30);
-            this.txtMatricula.TabIndex = 73;
+            this.txtMatricula.TabIndex = 2;
             // 
             // label3
             // 

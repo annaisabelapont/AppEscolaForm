@@ -81,7 +81,7 @@
             this.btSalvar.Margin = new System.Windows.Forms.Padding(4);
             this.btSalvar.Name = "btSalvar";
             this.btSalvar.Size = new System.Drawing.Size(257, 48);
-            this.btSalvar.TabIndex = 35;
+            this.btSalvar.TabIndex = 3;
             this.btSalvar.Text = "SALVAR";
             this.btSalvar.UseVisualStyleBackColor = false;
             this.btSalvar.Click += new System.EventHandler(this.btSalvar_Click);
@@ -93,7 +93,7 @@
             this.txtNomeTurma.Margin = new System.Windows.Forms.Padding(4);
             this.txtNomeTurma.Name = "txtNomeTurma";
             this.txtNomeTurma.Size = new System.Drawing.Size(363, 30);
-            this.txtNomeTurma.TabIndex = 34;
+            this.txtNomeTurma.TabIndex = 1;
             // 
             // txtSerie
             // 
@@ -102,7 +102,7 @@
             this.txtSerie.Margin = new System.Windows.Forms.Padding(4);
             this.txtSerie.Name = "txtSerie";
             this.txtSerie.Size = new System.Drawing.Size(363, 30);
-            this.txtSerie.TabIndex = 33;
+            this.txtSerie.TabIndex = 0;
             // 
             // btCancelar
             // 
@@ -113,7 +113,7 @@
             this.btCancelar.Margin = new System.Windows.Forms.Padding(4);
             this.btCancelar.Name = "btCancelar";
             this.btCancelar.Size = new System.Drawing.Size(257, 46);
-            this.btCancelar.TabIndex = 39;
+            this.btCancelar.TabIndex = 4;
             this.btCancelar.Text = "CANCELAR";
             this.btCancelar.UseVisualStyleBackColor = false;
             this.btCancelar.Click += new System.EventHandler(this.btCancelar_Click);
@@ -125,7 +125,7 @@
             this.txtAno.Margin = new System.Windows.Forms.Padding(4);
             this.txtAno.Name = "txtAno";
             this.txtAno.Size = new System.Drawing.Size(363, 30);
-            this.txtAno.TabIndex = 40;
+            this.txtAno.TabIndex = 2;
             // 
             // label3
             // 
