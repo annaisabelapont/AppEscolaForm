@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AppEscolaForm.Contexto;
+using AppEscolaForm.Formularios;
+using AppEscolaForm.Models;
 
 namespace AppEscolaForm.Formularios
 {
@@ -15,6 +18,34 @@ namespace AppEscolaForm.Formularios
         public ExibirAlunosAprovados()
         {
             InitializeComponent();
+            cbTurma.DataSource = Context.ListaSalasDeAula.ToList();
+            cbTurma.DisplayMember = "SerieENome";
+            cbTurma.SelectedIndex = -1;
+        }
+
+        private void cbTurma_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int indiceSelecionado = cbTurma.SelectedIndex;
+            if (indiceSelecionado != -1)
+            {
+                SalaDeAula salaDeAulaSelecionada = Context.ListaSalasDeAula[indiceSelecionado];
+                txtSerie.Text = salaDeAulaSelecionada.Serie.ToString();
+                txtNomeTurma.Text = salaDeAulaSelecionada.SerieENome;
+                dtTabela.DataSource = Context.ListaAlunos
+                    .Where(aluno => aluno.IdSalaDeAula == salaDeAulaSelecionada.Id && aluno.VerificarSituacao().Contains("APROVADO"))
+                    .ToList();
+            }
+            else
+            {
+                LimparCaixasTexto();
+            }
+        }
+
+        private void LimparCaixasTexto()
+        {
+            txtSerie.Clear();
+            txtNomeTurma.Clear();
+            dtTabela.DataSource = new List<Aluno>();
         }
     }
 }

@@ -36,13 +36,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtSerie = new System.Windows.Forms.TextBox();
-            this.txtNomeAluno = new System.Windows.Forms.TextBox();
+            this.txtNomeTurma = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtTabela)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.SeaGreen;
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel1.Location = new System.Drawing.Point(73, 200);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
@@ -79,6 +79,7 @@
             this.cbTurma.Name = "cbTurma";
             this.cbTurma.Size = new System.Drawing.Size(529, 33);
             this.cbTurma.TabIndex = 82;
+            this.cbTurma.SelectedIndexChanged += new System.EventHandler(this.cbTurma_SelectedIndexChanged);
             // 
             // label8
             // 
@@ -122,19 +123,20 @@
             this.txtSerie.Size = new System.Drawing.Size(284, 30);
             this.txtSerie.TabIndex = 74;
             // 
-            // txtNomeAluno
+            // txtNomeTurma
             // 
-            this.txtNomeAluno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNomeAluno.Location = new System.Drawing.Point(88, 147);
-            this.txtNomeAluno.Margin = new System.Windows.Forms.Padding(4);
-            this.txtNomeAluno.Name = "txtNomeAluno";
-            this.txtNomeAluno.Size = new System.Drawing.Size(284, 30);
-            this.txtNomeAluno.TabIndex = 73;
+            this.txtNomeTurma.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNomeTurma.Location = new System.Drawing.Point(88, 147);
+            this.txtNomeTurma.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNomeTurma.Name = "txtNomeTurma";
+            this.txtNomeTurma.Size = new System.Drawing.Size(284, 30);
+            this.txtNomeTurma.TabIndex = 73;
             // 
             // ExibirAlunosAprovados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(800, 554);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dtTabela);
@@ -144,7 +146,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtSerie);
-            this.Controls.Add(this.txtNomeAluno);
+            this.Controls.Add(this.txtNomeTurma);
             this.Name = "ExibirAlunosAprovados";
             this.Text = "ExibirAlunosAprovados";
             ((System.ComponentModel.ISupportInitialize)(this.dtTabela)).EndInit();
@@ -163,6 +165,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtSerie;
-        private System.Windows.Forms.TextBox txtNomeAluno;
+        private System.Windows.Forms.TextBox txtNomeTurma;
     }
 }

@@ -43,7 +43,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.SeaGreen;
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel1.Location = new System.Drawing.Point(68, 234);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
@@ -148,6 +148,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(800, 595);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
@@ -159,6 +160,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtNomeTurma);
             this.Controls.Add(this.txtSerie);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "ConsultarTurma";
             this.Text = "ConsultarTurmas";
             ((System.ComponentModel.ISupportInitialize)(this.dtTabela)).EndInit();

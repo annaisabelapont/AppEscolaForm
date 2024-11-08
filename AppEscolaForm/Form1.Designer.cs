@@ -125,10 +125,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(118, 32);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(54, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(822, 29);
+            this.label1.Size = new System.Drawing.Size(971, 32);
             this.label1.TabIndex = 7;
             this.label1.Text = "Anna Isabela, Dhuliana Paula e Giovanna Rodrigues - 2° A Informática";
             // 
@@ -136,6 +136,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(1067, 607);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btConsultarAprovadosReprovadosTurma);

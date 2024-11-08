@@ -55,6 +55,7 @@
             this.cbTurma.Name = "cbTurma";
             this.cbTurma.Size = new System.Drawing.Size(529, 33);
             this.cbTurma.TabIndex = 101;
+            this.cbTurma.SelectedIndexChanged += new System.EventHandler(this.cbTurma_SelectedIndexChanged);
             // 
             // label8
             // 
@@ -91,6 +92,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(800, 239);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.cbTurma);
