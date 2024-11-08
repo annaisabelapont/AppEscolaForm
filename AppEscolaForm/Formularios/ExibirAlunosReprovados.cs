@@ -46,6 +46,7 @@ namespace AppEscolaForm.Formularios
         {
             txtNomeTurma.Clear();
             txtSerie.Clear();
+            txtAno.Clear();
             dtTabela.DataSource = new List<Aluno>();
         }
     }
