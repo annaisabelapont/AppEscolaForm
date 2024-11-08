@@ -38,7 +38,7 @@
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(130, 68);
+            this.label7.Location = new System.Drawing.Point(135, 98);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(531, 20);
@@ -50,7 +50,7 @@
             // 
             this.cbTurma.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbTurma.FormattingEnabled = true;
-            this.cbTurma.Location = new System.Drawing.Point(130, 91);
+            this.cbTurma.Location = new System.Drawing.Point(135, 121);
             this.cbTurma.Margin = new System.Windows.Forms.Padding(4);
             this.cbTurma.Name = "cbTurma";
             this.cbTurma.Size = new System.Drawing.Size(529, 33);
@@ -65,24 +65,24 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(724, 30);
             this.label8.TabIndex = 100;
-            this.label8.Text = "PERCENTUAL";
+            this.label8.Text = "PERCENTUAL DE APROVADOS E REPROVADOS";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(82, 146);
+            this.label4.Location = new System.Drawing.Point(93, 199);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(239, 20);
+            this.label4.Size = new System.Drawing.Size(233, 20);
             this.label4.TabIndex = 98;
-            this.label4.Text = "PERCENTUAL DA TURMA:";
+            this.label4.Text = "PERCENTUAL DA TURMA";
             // 
             // txtPercentual
             // 
             this.txtPercentual.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPercentual.Location = new System.Drawing.Point(86, 170);
+            this.txtPercentual.Location = new System.Drawing.Point(97, 223);
             this.txtPercentual.Margin = new System.Windows.Forms.Padding(4);
             this.txtPercentual.Name = "txtPercentual";
             this.txtPercentual.Size = new System.Drawing.Size(611, 30);
@@ -93,7 +93,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(800, 239);
+            this.ClientSize = new System.Drawing.Size(800, 330);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.cbTurma);
             this.Controls.Add(this.label8);

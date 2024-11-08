@@ -124,13 +124,13 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(54, 38);
+            this.label1.Location = new System.Drawing.Point(-12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(971, 32);
+            this.label1.Size = new System.Drawing.Size(1085, 80);
             this.label1.TabIndex = 7;
             this.label1.Text = "Anna Isabela, Dhuliana Paula e Giovanna Rodrigues - 2° A Informática";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -150,7 +150,6 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

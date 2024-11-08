@@ -38,12 +38,14 @@
             this.txtNomeTurma = new System.Windows.Forms.TextBox();
             this.txtSerie = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.txtAno = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtTabela)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel1.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.panel1.Location = new System.Drawing.Point(68, 234);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
@@ -52,6 +54,7 @@
             // 
             // dtTabela
             // 
+            this.dtTabela.BackgroundColor = System.Drawing.Color.GhostWhite;
             this.dtTabela.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtTabela.Location = new System.Drawing.Point(66, 303);
             this.dtTabela.Margin = new System.Windows.Forms.Padding(4);
@@ -97,12 +100,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(447, 145);
+            this.label1.Location = new System.Drawing.Point(293, 145);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 20);
+            this.label1.Size = new System.Drawing.Size(165, 20);
             this.label1.TabIndex = 76;
-            this.label1.Text = "NOME";
+            this.label1.Text = "NOME DA TURMA";
             // 
             // label4
             // 
@@ -118,10 +121,10 @@
             // txtNomeTurma
             // 
             this.txtNomeTurma.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNomeTurma.Location = new System.Drawing.Point(451, 169);
+            this.txtNomeTurma.Location = new System.Drawing.Point(297, 169);
             this.txtNomeTurma.Margin = new System.Windows.Forms.Padding(4);
             this.txtNomeTurma.Name = "txtNomeTurma";
-            this.txtNomeTurma.Size = new System.Drawing.Size(284, 30);
+            this.txtNomeTurma.Size = new System.Drawing.Size(213, 30);
             this.txtNomeTurma.TabIndex = 74;
             // 
             // txtSerie
@@ -130,7 +133,7 @@
             this.txtSerie.Location = new System.Drawing.Point(70, 169);
             this.txtSerie.Margin = new System.Windows.Forms.Padding(4);
             this.txtSerie.Name = "txtSerie";
-            this.txtSerie.Size = new System.Drawing.Size(284, 30);
+            this.txtSerie.Size = new System.Drawing.Size(215, 30);
             this.txtSerie.TabIndex = 73;
             // 
             // label2
@@ -144,12 +147,34 @@
             this.label2.Text = "ALUNOS MATRICULADOS NA TURMA";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // txtAno
+            // 
+            this.txtAno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAno.Location = new System.Drawing.Point(520, 169);
+            this.txtAno.Margin = new System.Windows.Forms.Padding(4);
+            this.txtAno.Name = "txtAno";
+            this.txtAno.Size = new System.Drawing.Size(213, 30);
+            this.txtAno.TabIndex = 90;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(516, 145);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(48, 20);
+            this.label3.TabIndex = 91;
+            this.label3.Text = "ANO";
+            // 
             // ConsultarTurma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(800, 595);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtAno);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dtTabela);
@@ -181,5 +206,7 @@
         private System.Windows.Forms.TextBox txtNomeTurma;
         private System.Windows.Forms.TextBox txtSerie;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtAno;
+        private System.Windows.Forms.Label label3;
     }
 }

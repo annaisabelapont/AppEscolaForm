@@ -84,7 +84,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(431, 215);
+            this.label2.Location = new System.Drawing.Point(79, 281);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(232, 20);
@@ -94,7 +94,7 @@
             // txtMatricula
             // 
             this.txtMatricula.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMatricula.Location = new System.Drawing.Point(435, 239);
+            this.txtMatricula.Location = new System.Drawing.Point(83, 305);
             this.txtMatricula.Margin = new System.Windows.Forms.Padding(4);
             this.txtMatricula.Name = "txtMatricula";
             this.txtMatricula.Size = new System.Drawing.Size(284, 30);
@@ -104,7 +104,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(431, 281);
+            this.label6.Location = new System.Drawing.Point(429, 215);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(75, 20);
@@ -114,7 +114,7 @@
             // txtNota1
             // 
             this.txtNota1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNota1.Location = new System.Drawing.Point(435, 305);
+            this.txtNota1.Location = new System.Drawing.Point(433, 239);
             this.txtNota1.Margin = new System.Windows.Forms.Padding(4);
             this.txtNota1.Name = "txtNota1";
             this.txtNota1.Size = new System.Drawing.Size(134, 30);
@@ -124,7 +124,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(580, 281);
+            this.label3.Location = new System.Drawing.Point(578, 215);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(75, 20);
@@ -145,7 +145,7 @@
             // txtNota2
             // 
             this.txtNota2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNota2.Location = new System.Drawing.Point(584, 305);
+            this.txtNota2.Location = new System.Drawing.Point(582, 239);
             this.txtNota2.Margin = new System.Windows.Forms.Padding(4);
             this.txtNota2.Name = "txtNota2";
             this.txtNota2.Size = new System.Drawing.Size(134, 30);
@@ -162,7 +162,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.panel1.Location = new System.Drawing.Point(83, 170);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
@@ -173,7 +173,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(431, 352);
+            this.label5.Location = new System.Drawing.Point(429, 281);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(67, 20);
@@ -183,7 +183,7 @@
             // txtMedia
             // 
             this.txtMedia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMedia.Location = new System.Drawing.Point(435, 376);
+            this.txtMedia.Location = new System.Drawing.Point(433, 305);
             this.txtMedia.Margin = new System.Windows.Forms.Padding(4);
             this.txtMedia.Name = "txtMedia";
             this.txtMedia.Size = new System.Drawing.Size(283, 30);
@@ -193,7 +193,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(80, 352);
+            this.label7.Location = new System.Drawing.Point(429, 352);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(101, 20);
@@ -203,7 +203,7 @@
             // txtSituacao
             // 
             this.txtSituacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSituacao.Location = new System.Drawing.Point(84, 376);
+            this.txtSituacao.Location = new System.Drawing.Point(433, 376);
             this.txtSituacao.Margin = new System.Windows.Forms.Padding(4);
             this.txtSituacao.Name = "txtSituacao";
             this.txtSituacao.Size = new System.Drawing.Size(283, 30);
@@ -213,7 +213,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(79, 281);
+            this.label9.Location = new System.Drawing.Point(80, 352);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -224,7 +224,7 @@
             // txtTurma
             // 
             this.txtTurma.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTurma.Location = new System.Drawing.Point(83, 305);
+            this.txtTurma.Location = new System.Drawing.Point(84, 376);
             this.txtTurma.Margin = new System.Windows.Forms.Padding(4);
             this.txtTurma.Name = "txtTurma";
             this.txtTurma.Size = new System.Drawing.Size(283, 30);
@@ -232,14 +232,16 @@
             // 
             // btPesquisar
             // 
+            this.btPesquisar.BackColor = System.Drawing.Color.Honeydew;
             this.btPesquisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btPesquisar.ForeColor = System.Drawing.Color.DarkGreen;
             this.btPesquisar.Location = new System.Drawing.Point(536, 102);
             this.btPesquisar.Margin = new System.Windows.Forms.Padding(4);
             this.btPesquisar.Name = "btPesquisar";
             this.btPesquisar.Size = new System.Drawing.Size(183, 30);
             this.btPesquisar.TabIndex = 94;
             this.btPesquisar.Text = "PESQUISAR";
-            this.btPesquisar.UseVisualStyleBackColor = true;
+            this.btPesquisar.UseVisualStyleBackColor = false;
             this.btPesquisar.Click += new System.EventHandler(this.btPesquisar_Click);
             // 
             // ConsultarAluno
