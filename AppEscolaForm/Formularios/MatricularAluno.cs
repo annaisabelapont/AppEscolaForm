@@ -35,6 +35,10 @@ namespace AppEscolaForm.Formularios
                 SalaDeAula salaDeAulaSelecionada = Context.ListaSalasDeAula[indiceSelecionado];
 
                 this.IdSalaDeAulaSelecionada = salaDeAulaSelecionada.Id;
+
+                txtSerie.Text = salaDeAulaSelecionada.Serie.ToString();
+                txtNomeTurma.Text = salaDeAulaSelecionada.NomeTurma;
+                txtAno.Text = salaDeAulaSelecionada.Ano.ToString();
             }
             else
             {
@@ -56,7 +60,7 @@ namespace AppEscolaForm.Formularios
             ListaTemporariaAlunos.Add(aluno);
             dtTabela.DataSource = ListaTemporariaAlunos.ToList();
 
-            LimparCaixasTexto();
+            LimparCaixasAluno();
         }
 
         private void btSalvar_Click(object sender, EventArgs e)
@@ -70,10 +74,10 @@ namespace AppEscolaForm.Formularios
         }
         private void btCancelar_Click(object sender, EventArgs e)
         {
-            LimparCaixasTexto();
+            LimparTudo();
         }
 
-        private void LimparCaixasTexto()
+        private void LimparCaixasAluno()
         {
             txtNome.Clear();
             txtMatricula.Clear();
@@ -83,7 +87,10 @@ namespace AppEscolaForm.Formularios
         }
         private void LimparCaixasETabela()
         {
-            LimparCaixasTexto();
+            LimparCaixasAluno();
+            txtSerie.Clear();
+            txtNomeTurma.Clear();
+            txtAno.Clear();
             dtTabela.DataSource = new List<Aluno>();
         }
         private void LimparTudo()
