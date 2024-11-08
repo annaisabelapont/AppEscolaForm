@@ -47,6 +47,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.txtTurma = new System.Windows.Forms.TextBox();
             this.btPesquisar = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label8
@@ -244,12 +245,24 @@
             this.btPesquisar.UseVisualStyleBackColor = false;
             this.btPesquisar.Click += new System.EventHandler(this.btPesquisar_Click);
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(215, 431);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(370, 16);
+            this.label11.TabIndex = 106;
+            this.label11.Text = "Anna Isabela, Dhuliana Paula e Giovanna Rodrigues";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // ConsultarAluno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.btPesquisar);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtTurma);
@@ -296,5 +309,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtTurma;
         private System.Windows.Forms.Button btPesquisar;
+        private System.Windows.Forms.Label label11;
     }
 }

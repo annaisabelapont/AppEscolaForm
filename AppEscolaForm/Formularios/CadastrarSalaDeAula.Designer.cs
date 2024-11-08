@@ -37,6 +37,7 @@
             this.btCancelar = new System.Windows.Forms.Button();
             this.txtAno = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label5
@@ -138,12 +139,24 @@
             this.label3.TabIndex = 41;
             this.label3.Text = "ANO";
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(215, 347);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(370, 16);
+            this.label11.TabIndex = 105;
+            this.label11.Text = "Anna Isabela, Dhuliana Paula e Giovanna Rodrigues";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // CadastrarSalaDeAula
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(800, 366);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtAno);
             this.Controls.Add(this.btCancelar);
@@ -171,5 +184,6 @@
         private System.Windows.Forms.Button btCancelar;
         private System.Windows.Forms.TextBox txtAno;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label11;
     }
 }
