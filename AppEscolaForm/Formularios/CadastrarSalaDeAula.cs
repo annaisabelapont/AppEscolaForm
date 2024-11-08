@@ -46,6 +46,7 @@ namespace AppEscolaForm.Formularios
             txtSerie.Clear();
             txtNomeTurma.Clear();
             txtAno.Clear();
+            txtSerie.Focus();
         }
     }
 }

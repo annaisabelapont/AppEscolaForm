@@ -68,6 +68,10 @@ namespace AppEscolaForm.Formularios
             ListaTemporariaAlunos.Clear();
             LimparTudo();
         }
+        private void btCancelar_Click(object sender, EventArgs e)
+        {
+            LimparCaixasTexto();
+        }
 
         private void LimparCaixasTexto()
         {
@@ -75,6 +79,7 @@ namespace AppEscolaForm.Formularios
             txtMatricula.Clear();
             txtNota2.Clear();
             txtNota1.Clear();
+            txtNome.Focus();
         }
         private void LimparCaixasETabela()
         {
@@ -86,5 +91,6 @@ namespace AppEscolaForm.Formularios
             LimparCaixasETabela();
             cbTurma.SelectedIndex = -1;
         }
+
     }
 }

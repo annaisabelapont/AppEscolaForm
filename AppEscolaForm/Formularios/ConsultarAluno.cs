@@ -44,6 +44,13 @@ namespace AppEscolaForm.Formularios
             }
             else
             {
+                txtNomeAlunoEncontrado.Clear();
+                txtMatricula.Clear();
+                txtTurma.Clear();
+                txtNota1.Clear();
+                txtNota2.Clear();
+                txtMedia.Clear();
+                txtSituacao.Clear();
                 MessageBox.Show("ALUNO NÃO ENCONTRADO", "2º A INF", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }

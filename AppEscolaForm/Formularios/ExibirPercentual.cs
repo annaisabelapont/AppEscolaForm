@@ -30,23 +30,27 @@ namespace AppEscolaForm.Formularios
             {
                 SalaDeAula salaDeAulaSelecionada = Context.ListaSalasDeAula[indiceSelecionado];
 
-                double totalAlunos = Context.ListaAlunos
+                List<Aluno> alunosSalaSelecionada = Context.ListaAlunos
                             .Where(aluno => aluno.IdSalaDeAula == salaDeAulaSelecionada.Id)
-                            .Count();
+                            .ToList();
 
-                double totalAprovados = Context.ListaAlunos
-                    .Where(aluno => aluno.IdSalaDeAula == salaDeAulaSelecionada.Id
-                           && aluno.VerificarSituacao() == "APROVADO(A0")
+                double totalAlunos = alunosSalaSelecionada.Count();
+
+                double totalAprovados = alunosSalaSelecionada
+                    .Where(aluno => aluno.VerificarSituacao() == "APROVADO(A)")
                     .Count();
 
-                double totalReprovados = Context.ListaAlunos
-                    .Where(aluno => aluno.IdSalaDeAula == salaDeAulaSelecionada.Id
-                           && aluno.VerificarSituacao() == "REPROVADO(A)")
+                double totalReprovados = alunosSalaSelecionada
+                    .Where(aluno => aluno.VerificarSituacao() == "REPROVADO(A)")
                     .Count();
 
-                double percentualAprovados = totalAprovados / totalAlunos * 100;
+                double percentualAprovados = totalAlunos > 0
+                        ? totalAprovados / totalAlunos * 100
+                        : 0;
 
-                double percentualReprovados = totalReprovados / totalAlunos * 100;
+                double percentualReprovados = totalAlunos > 0
+                        ? totalReprovados / totalAlunos * 100
+                        : 0;
 
                 txtPercentual.Text = $"{(percentualAprovados).ToString("F2")}% está APROVADA e {(percentualReprovados).ToString("F2")}% está REPROVADA!";
             }
