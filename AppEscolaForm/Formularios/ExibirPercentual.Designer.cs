@@ -54,7 +54,7 @@
             this.cbTurma.Margin = new System.Windows.Forms.Padding(4);
             this.cbTurma.Name = "cbTurma";
             this.cbTurma.Size = new System.Drawing.Size(529, 33);
-            this.cbTurma.TabIndex = 101;
+            this.cbTurma.TabIndex = 0;
             this.cbTurma.SelectedIndexChanged += new System.EventHandler(this.cbTurma_SelectedIndexChanged);
             // 
             // label8
@@ -86,7 +86,7 @@
             this.txtPercentual.Margin = new System.Windows.Forms.Padding(4);
             this.txtPercentual.Name = "txtPercentual";
             this.txtPercentual.Size = new System.Drawing.Size(611, 30);
-            this.txtPercentual.TabIndex = 96;
+            this.txtPercentual.TabIndex = 1;
             // 
             // ExibirPercentual
             // 

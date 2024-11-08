@@ -60,7 +60,7 @@
             this.dtTabela.Name = "dtTabela";
             this.dtTabela.RowHeadersWidth = 51;
             this.dtTabela.Size = new System.Drawing.Size(669, 274);
-            this.dtTabela.TabIndex = 97;
+            this.dtTabela.TabIndex = 4;
             // 
             // label7
             // 
@@ -81,7 +81,7 @@
             this.cbTurma.Margin = new System.Windows.Forms.Padding(4);
             this.cbTurma.Name = "cbTurma";
             this.cbTurma.Size = new System.Drawing.Size(529, 33);
-            this.cbTurma.TabIndex = 94;
+            this.cbTurma.TabIndex = 0;
             this.cbTurma.SelectedIndexChanged += new System.EventHandler(this.cbTurma_SelectedIndexChanged);
             // 
             // label8
@@ -113,7 +113,7 @@
             this.txtAno.Margin = new System.Windows.Forms.Padding(4);
             this.txtAno.Name = "txtAno";
             this.txtAno.Size = new System.Drawing.Size(213, 30);
-            this.txtAno.TabIndex = 96;
+            this.txtAno.TabIndex = 3;
             // 
             // label1
             // 
@@ -144,7 +144,7 @@
             this.txtNomeTurma.Margin = new System.Windows.Forms.Padding(4);
             this.txtNomeTurma.Name = "txtNomeTurma";
             this.txtNomeTurma.Size = new System.Drawing.Size(213, 30);
-            this.txtNomeTurma.TabIndex = 93;
+            this.txtNomeTurma.TabIndex = 2;
             // 
             // txtSerie
             // 
@@ -153,7 +153,7 @@
             this.txtSerie.Margin = new System.Windows.Forms.Padding(4);
             this.txtSerie.Name = "txtSerie";
             this.txtSerie.Size = new System.Drawing.Size(215, 30);
-            this.txtSerie.TabIndex = 92;
+            this.txtSerie.TabIndex = 1;
             // 
             // ExibirAlunosReprovados
             // 
