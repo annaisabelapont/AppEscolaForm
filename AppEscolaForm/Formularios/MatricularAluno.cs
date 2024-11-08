@@ -23,7 +23,7 @@ namespace AppEscolaForm.Formularios
         {
             InitializeComponent();
             cbTurma.DataSource = Context.ListaSalasDeAula.ToList();
-            cbTurma.DisplayMember = "SerieENome";
+            cbTurma.DisplayMember = "SerieNomeEAno";
             cbTurma.SelectedIndex = -1;
         }
 

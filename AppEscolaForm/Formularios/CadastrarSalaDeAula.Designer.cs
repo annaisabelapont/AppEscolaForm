@@ -35,6 +35,8 @@
             this.txtNomeTurma = new System.Windows.Forms.TextBox();
             this.txtSerie = new System.Windows.Forms.TextBox();
             this.btCancelar = new System.Windows.Forms.Button();
+            this.txtAno = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label5
@@ -72,9 +74,10 @@
             // 
             // btSalvar
             // 
-            this.btSalvar.BackColor = System.Drawing.Color.White;
+            this.btSalvar.BackColor = System.Drawing.Color.Honeydew;
             this.btSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSalvar.Location = new System.Drawing.Point(476, 125);
+            this.btSalvar.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.btSalvar.Location = new System.Drawing.Point(488, 154);
             this.btSalvar.Margin = new System.Windows.Forms.Padding(4);
             this.btSalvar.Name = "btSalvar";
             this.btSalvar.Size = new System.Drawing.Size(257, 48);
@@ -103,9 +106,10 @@
             // 
             // btCancelar
             // 
-            this.btCancelar.BackColor = System.Drawing.Color.LightGray;
+            this.btCancelar.BackColor = System.Drawing.Color.MistyRose;
             this.btCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btCancelar.Location = new System.Drawing.Point(476, 201);
+            this.btCancelar.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.btCancelar.Location = new System.Drawing.Point(488, 230);
             this.btCancelar.Margin = new System.Windows.Forms.Padding(4);
             this.btCancelar.Name = "btCancelar";
             this.btCancelar.Size = new System.Drawing.Size(257, 46);
@@ -114,12 +118,34 @@
             this.btCancelar.UseVisualStyleBackColor = false;
             this.btCancelar.Click += new System.EventHandler(this.btCancelar_Click);
             // 
+            // txtAno
+            // 
+            this.txtAno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAno.Location = new System.Drawing.Point(68, 280);
+            this.txtAno.Margin = new System.Windows.Forms.Padding(4);
+            this.txtAno.Name = "txtAno";
+            this.txtAno.Size = new System.Drawing.Size(363, 30);
+            this.txtAno.TabIndex = 40;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(64, 256);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(48, 20);
+            this.label3.TabIndex = 41;
+            this.label3.Text = "ANO";
+            // 
             // CadastrarSalaDeAula
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(800, 315);
+            this.ClientSize = new System.Drawing.Size(800, 366);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtAno);
             this.Controls.Add(this.btCancelar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
@@ -143,5 +169,7 @@
         private System.Windows.Forms.TextBox txtNomeTurma;
         private System.Windows.Forms.TextBox txtSerie;
         private System.Windows.Forms.Button btCancelar;
+        private System.Windows.Forms.TextBox txtAno;
+        private System.Windows.Forms.Label label3;
     }
 }

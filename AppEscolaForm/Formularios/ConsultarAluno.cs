@@ -25,7 +25,7 @@ namespace AppEscolaForm.Formularios
 
             Aluno alunoEncontrado = Context.ListaAlunos
                 .Where(aluno => aluno.Nome == nome)
-                .First();
+                .FirstOrDefault();
 
             if (alunoEncontrado != null)
             {
@@ -40,7 +40,7 @@ namespace AppEscolaForm.Formularios
                 txtMedia.Text = alunoEncontrado.CalcularMedia().ToString();
                 txtSituacao.Text = alunoEncontrado.VerificarSituacao();
 
-                txtTurma.Text = turmaDoAluno.SerieENome;
+                txtTurma.Text = turmaDoAluno.SerieNomeEAno;
             }
             else
             {

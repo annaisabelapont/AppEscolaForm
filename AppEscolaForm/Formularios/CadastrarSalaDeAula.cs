@@ -25,8 +25,10 @@ namespace AppEscolaForm.Formularios
         {
             var salaDeAula = new SalaDeAula();
             salaDeAula.Id = IdSalaDeAula++;
+
             salaDeAula.Serie = Convert.ToInt32(txtSerie.Text);
             salaDeAula.NomeTurma = txtNomeTurma.Text;
+            salaDeAula.Ano = Convert.ToInt32(txtAno.Text);
 
             Context.ListaSalasDeAula.Add(salaDeAula);
 
@@ -43,6 +45,7 @@ namespace AppEscolaForm.Formularios
         {
             txtSerie.Clear();
             txtNomeTurma.Clear();
+            txtAno.Clear();
         }
     }
 }

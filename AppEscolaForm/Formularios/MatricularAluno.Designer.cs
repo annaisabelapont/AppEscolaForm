@@ -143,7 +143,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel1.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.panel1.Location = new System.Drawing.Point(66, 319);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
@@ -152,41 +152,48 @@
             // 
             // btAdd
             // 
+            this.btAdd.BackColor = System.Drawing.Color.White;
             this.btAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btAdd.Location = new System.Drawing.Point(66, 356);
             this.btAdd.Margin = new System.Windows.Forms.Padding(4);
             this.btAdd.Name = "btAdd";
             this.btAdd.Size = new System.Drawing.Size(183, 36);
             this.btAdd.TabIndex = 70;
             this.btAdd.Text = "ADD(+)";
-            this.btAdd.UseVisualStyleBackColor = true;
+            this.btAdd.UseVisualStyleBackColor = false;
             this.btAdd.Click += new System.EventHandler(this.btAdd_Click);
             // 
             // btCancelar
             // 
+            this.btCancelar.BackColor = System.Drawing.Color.MistyRose;
             this.btCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btCancelar.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btCancelar.Location = new System.Drawing.Point(309, 356);
             this.btCancelar.Margin = new System.Windows.Forms.Padding(4);
             this.btCancelar.Name = "btCancelar";
             this.btCancelar.Size = new System.Drawing.Size(183, 36);
             this.btCancelar.TabIndex = 69;
             this.btCancelar.Text = "CANCELAR";
-            this.btCancelar.UseVisualStyleBackColor = true;
+            this.btCancelar.UseVisualStyleBackColor = false;
             // 
             // btSalvar
             // 
+            this.btSalvar.BackColor = System.Drawing.Color.Honeydew;
             this.btSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btSalvar.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.btSalvar.Location = new System.Drawing.Point(552, 356);
             this.btSalvar.Margin = new System.Windows.Forms.Padding(4);
             this.btSalvar.Name = "btSalvar";
             this.btSalvar.Size = new System.Drawing.Size(183, 36);
             this.btSalvar.TabIndex = 68;
             this.btSalvar.Text = "SALVAR";
-            this.btSalvar.UseVisualStyleBackColor = true;
+            this.btSalvar.UseVisualStyleBackColor = false;
             this.btSalvar.Click += new System.EventHandler(this.btSalvar_Click);
             // 
             // dtTabela
             // 
+            this.dtTabela.BackgroundColor = System.Drawing.Color.GhostWhite;
             this.dtTabela.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtTabela.Location = new System.Drawing.Point(66, 448);
             this.dtTabela.Margin = new System.Windows.Forms.Padding(4);

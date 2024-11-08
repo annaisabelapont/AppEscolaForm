@@ -19,7 +19,7 @@ namespace AppEscolaForm.Formularios
         {
             InitializeComponent();
             cbTurma.DataSource = Context.ListaSalasDeAula.ToList();
-            cbTurma.DisplayMember = "SerieENome";
+            cbTurma.DisplayMember = "SerieNomeEAno";
             cbTurma.SelectedIndex = -1;
         }
 
@@ -31,6 +31,7 @@ namespace AppEscolaForm.Formularios
                 SalaDeAula salaDeAulaSelecionada = Context.ListaSalasDeAula[indiceSelecionado];
                 txtSerie.Text = salaDeAulaSelecionada.Serie.ToString();
                 txtNomeTurma.Text = salaDeAulaSelecionada.NomeTurma;
+                txtAno.Text = salaDeAulaSelecionada.Ano.ToString();
                 dtTabela.DataSource = Context.ListaAlunos
                     .Where(aluno => aluno.IdSalaDeAula == salaDeAulaSelecionada.Id && aluno.VerificarSituacao() == "REPROVADO(A)")
                     .ToList();

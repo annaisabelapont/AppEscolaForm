@@ -7,8 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using AppEscolaForm.Contexto;
 using AppEscolaForm.Formularios;
+using AppEscolaForm.Contexto;
 using AppEscolaForm.Models;
 
 namespace AppEscolaForm.Formularios
@@ -19,7 +19,7 @@ namespace AppEscolaForm.Formularios
         {
             InitializeComponent();
             cbTurma.DataSource = Context.ListaSalasDeAula.ToList();
-            cbTurma.DisplayMember = "SerieENome";
+            cbTurma.DisplayMember = "SerieNomeEAno";
             cbTurma.SelectedIndex = -1;
         }
 
@@ -34,11 +34,15 @@ namespace AppEscolaForm.Formularios
                             .Where(aluno => aluno.IdSalaDeAula == salaDeAulaSelecionada.Id)
                             .Count();
 
-                double totalAprovados = Context.ListaAlunos.Where(aluno => aluno.IdSalaDeAula == salaDeAulaSelecionada.Id 
-                && aluno.VerificarSituacao().Contains("APROVADO")).Count();
+                double totalAprovados = Context.ListaAlunos
+                    .Where(aluno => aluno.IdSalaDeAula == salaDeAulaSelecionada.Id
+                           && aluno.VerificarSituacao() == "APROVADO(A0")
+                    .Count();
 
-                double totalReprovados = Context.ListaAlunos.Where(aluno => aluno.IdSalaDeAula == salaDeAulaSelecionada.Id 
-                && aluno.VerificarSituacao().Contains("REPROVADO")).Count();
+                double totalReprovados = Context.ListaAlunos
+                    .Where(aluno => aluno.IdSalaDeAula == salaDeAulaSelecionada.Id
+                           && aluno.VerificarSituacao() == "REPROVADO(A)")
+                    .Count();
 
                 double percentualAprovados = totalAprovados / totalAlunos * 100;
 
