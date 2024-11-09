@@ -204,7 +204,7 @@
             // 
             this.dtTabela.BackgroundColor = System.Drawing.Color.GhostWhite;
             this.dtTabela.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtTabela.Location = new System.Drawing.Point(66, 552);
+            this.dtTabela.Location = new System.Drawing.Point(66, 548);
             this.dtTabela.Margin = new System.Windows.Forms.Padding(4);
             this.dtTabela.Name = "dtTabela";
             this.dtTabela.RowHeadersWidth = 51;
@@ -234,7 +234,7 @@
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(135, 518);
+            this.label3.Location = new System.Drawing.Point(135, 520);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(531, 20);
@@ -313,11 +313,10 @@
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(215, 826);
+            this.label11.Location = new System.Drawing.Point(0, 825);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(370, 16);
+            this.label11.Size = new System.Drawing.Size(800, 17);
             this.label11.TabIndex = 106;
             this.label11.Text = "Anna Isabela, Dhuliana Paula e Giovanna Rodrigues";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

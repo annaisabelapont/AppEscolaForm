@@ -26,7 +26,6 @@ namespace AppEscolaForm.Formularios
             cbTurma.DisplayMember = "SerieNomeEAno";
             cbTurma.SelectedIndex = -1;
         }
-
         private void cbTurma_SelectedIndexChanged(object sender, EventArgs e)
         {
             int indiceSelecionado = cbTurma.SelectedIndex;
@@ -45,7 +44,6 @@ namespace AppEscolaForm.Formularios
                 LimparCaixasETabela();
             }
         }
-
         private void btAdd_Click(object sender, EventArgs e)
         {
             Aluno aluno = new Aluno();
@@ -62,7 +60,6 @@ namespace AppEscolaForm.Formularios
 
             LimparCaixasAluno();
         }
-
         private void btSalvar_Click(object sender, EventArgs e)
         {
             Context.ListaAlunos.AddRange(ListaTemporariaAlunos);
@@ -98,6 +95,5 @@ namespace AppEscolaForm.Formularios
             LimparCaixasETabela();
             cbTurma.SelectedIndex = -1;
         }
-
     }
 }

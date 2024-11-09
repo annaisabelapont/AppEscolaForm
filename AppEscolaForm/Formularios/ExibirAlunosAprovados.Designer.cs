@@ -158,12 +158,11 @@
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(215, 535);
+            this.label11.Location = new System.Drawing.Point(0, 535);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(370, 16);
-            this.label11.TabIndex = 106;
+            this.label11.Size = new System.Drawing.Size(800, 17);
+            this.label11.TabIndex = 107;
             this.label11.Text = "Anna Isabela, Dhuliana Paula e Giovanna Rodrigues";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
