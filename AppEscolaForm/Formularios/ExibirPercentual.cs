@@ -30,6 +30,10 @@ namespace AppEscolaForm.Formularios
             {
                 SalaDeAula salaDeAulaSelecionada = Context.ListaSalasDeAula[indiceSelecionado];
 
+                txtSerie.Text = salaDeAulaSelecionada.Serie.ToString();
+                txtNomeTurma.Text = salaDeAulaSelecionada.NomeTurma;
+                txtAno.Text = salaDeAulaSelecionada.Ano.ToString();
+
                 List<Aluno> alunosSalaSelecionada = Context.ListaAlunos
                             .Where(aluno => aluno.IdSalaDeAula == salaDeAulaSelecionada.Id)
                             .ToList();
@@ -56,6 +60,9 @@ namespace AppEscolaForm.Formularios
             }
             else
             {
+                txtSerie.Clear();
+                txtNomeTurma.Clear();
+                txtAno.Clear();
                 txtPercentual.Clear();
             }
         }

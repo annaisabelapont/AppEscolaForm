@@ -79,7 +79,7 @@
             this.txtNomeAluno.Margin = new System.Windows.Forms.Padding(4);
             this.txtNomeAluno.Name = "txtNomeAluno";
             this.txtNomeAluno.Size = new System.Drawing.Size(438, 30);
-            this.txtNomeAluno.TabIndex = 77;
+            this.txtNomeAluno.TabIndex = 0;
             // 
             // label2
             // 
@@ -99,7 +99,7 @@
             this.txtMatricula.Margin = new System.Windows.Forms.Padding(4);
             this.txtMatricula.Name = "txtMatricula";
             this.txtMatricula.Size = new System.Drawing.Size(284, 30);
-            this.txtMatricula.TabIndex = 85;
+            this.txtMatricula.TabIndex = 3;
             // 
             // label6
             // 
@@ -119,7 +119,7 @@
             this.txtNota1.Margin = new System.Windows.Forms.Padding(4);
             this.txtNota1.Name = "txtNota1";
             this.txtNota1.Size = new System.Drawing.Size(134, 30);
-            this.txtNota1.TabIndex = 83;
+            this.txtNota1.TabIndex = 5;
             // 
             // label3
             // 
@@ -150,7 +150,7 @@
             this.txtNota2.Margin = new System.Windows.Forms.Padding(4);
             this.txtNota2.Name = "txtNota2";
             this.txtNota2.Size = new System.Drawing.Size(134, 30);
-            this.txtNota2.TabIndex = 80;
+            this.txtNota2.TabIndex = 6;
             // 
             // txtNomeAlunoEncontrado
             // 
@@ -159,7 +159,7 @@
             this.txtNomeAlunoEncontrado.Margin = new System.Windows.Forms.Padding(4);
             this.txtNomeAlunoEncontrado.Name = "txtNomeAlunoEncontrado";
             this.txtNomeAlunoEncontrado.Size = new System.Drawing.Size(284, 30);
-            this.txtNomeAlunoEncontrado.TabIndex = 79;
+            this.txtNomeAlunoEncontrado.TabIndex = 2;
             // 
             // panel1
             // 
@@ -188,7 +188,7 @@
             this.txtMedia.Margin = new System.Windows.Forms.Padding(4);
             this.txtMedia.Name = "txtMedia";
             this.txtMedia.Size = new System.Drawing.Size(283, 30);
-            this.txtMedia.TabIndex = 88;
+            this.txtMedia.TabIndex = 7;
             // 
             // label7
             // 
@@ -208,7 +208,7 @@
             this.txtSituacao.Margin = new System.Windows.Forms.Padding(4);
             this.txtSituacao.Name = "txtSituacao";
             this.txtSituacao.Size = new System.Drawing.Size(283, 30);
-            this.txtSituacao.TabIndex = 90;
+            this.txtSituacao.TabIndex = 8;
             // 
             // label9
             // 
@@ -229,7 +229,7 @@
             this.txtTurma.Margin = new System.Windows.Forms.Padding(4);
             this.txtTurma.Name = "txtTurma";
             this.txtTurma.Size = new System.Drawing.Size(283, 30);
-            this.txtTurma.TabIndex = 92;
+            this.txtTurma.TabIndex = 4;
             // 
             // btPesquisar
             // 
@@ -240,19 +240,18 @@
             this.btPesquisar.Margin = new System.Windows.Forms.Padding(4);
             this.btPesquisar.Name = "btPesquisar";
             this.btPesquisar.Size = new System.Drawing.Size(183, 30);
-            this.btPesquisar.TabIndex = 94;
+            this.btPesquisar.TabIndex = 1;
             this.btPesquisar.Text = "PESQUISAR";
             this.btPesquisar.UseVisualStyleBackColor = false;
             this.btPesquisar.Click += new System.EventHandler(this.btPesquisar_Click);
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(215, 431);
+            this.label11.Location = new System.Drawing.Point(0, 431);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(370, 16);
-            this.label11.TabIndex = 106;
+            this.label11.Size = new System.Drawing.Size(800, 17);
+            this.label11.TabIndex = 107;
             this.label11.Text = "Anna Isabela, Dhuliana Paula e Giovanna Rodrigues";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
